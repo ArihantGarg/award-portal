@@ -31,7 +31,7 @@
         Welcome, Back!
       </h6>
       <h1
-        class="color text-blue-700 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+        class="color text-blue-700 mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl dark:text-white"
       >
         Sign In to your <br /> account
       </h1>

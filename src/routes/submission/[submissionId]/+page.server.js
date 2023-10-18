@@ -3,7 +3,7 @@ export async function load({ params }) {
 
   const application = await prisma.application.findUnique({
     where: {
-      id: submissionId,
+      id: parseInt(submissionId),
     },
     select: {
       id: true,

@@ -14,7 +14,7 @@
       <h1>Award Application Details</h1>
       
       {#if submission}
-        <Table bordered hover striped>
+        <Table hoverable striped shadow>
           <TableHead>
             <TableBodyRow>
               <TableHeadCell>Description</TableHeadCell>
@@ -63,7 +63,7 @@
 
         {#if $user.type === 'Admin' || $user.type === 'Reviewer'}
         <h2>Scores Assigned by the Reviewers</h2>
-        <Table bordered hover striped>
+        <Table hoverable striped shadow>
           <TableHead>
             <TableBodyRow>
               <TableHeadCell>Reviewer</TableHeadCell>

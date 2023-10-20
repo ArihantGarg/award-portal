@@ -32,7 +32,7 @@
 <!-- This div contains the main content and applies margin on all sides -->
 <div class="container mx-auto p-4 m-5">
   <!-- This div contains the heading Review Criteria-->
-  <div class="mb-7">
+  <div class="mb-7 text-center">
     <!-- This label styles the text and adds some spacing -->
     <Label class="font-extralight text-3xl mb-1">Review Criteria</Label>
     <!-- This span creates a blue border below the heading that is centered -->
@@ -53,11 +53,11 @@
       <!-- this div contain the labels of metrics -->
       <div class="metric-row flex items-center justify-center space-x-4">
         <!-- this is the label of the metrics nmae -->
-        <div class="w-3/6 p-2 m-2 px-40">
+        <div class="w-3/6 p-2 m-2 text-center">
           <span class="text-center font-semibold">Metrics</span>
         </div>
         <!-- this is the label of the metrics score-->
-        <div class="w-3/6 p-2 m-2 px-40">
+        <div class="w-3/6 p-2 m-2 text-center">
           <span class="text-center font-semibold">MaxScore</span>
         </div>
       </div>
@@ -66,11 +66,11 @@
         <!-- tis div contain metric which is displayed after addig -->
         <div class="metric-row flex items-center justify-center space-x-4">
           <!-- this is for the name of the metric -->
-          <div class="w-3/6 border p-2 m-2 rounded-xl px-40">
+          <div class="w-3/6 border p-2 m-2 rounded-xl text-center">
             <span class="text-center">{metric.name}</span>
           </div>
           <!-- this is for the score of the metric -->
-          <div class="w-3/6 border p-2 m-2 ml-3 rounded-xl px-40">
+          <div class="w-3/6 border p-2 m-2 ml-3 rounded-xl text-center">
             <span class="text-center">{metric.maxScore}</span>
           </div>
         </div>
@@ -79,7 +79,7 @@
   </div>
 
   <!-- This div contains input fields for adding new metrics -->
-  <div class="p-2 lg:p-4 mb-6 metric-container">
+  <div class="p-2  mb-6 metric-container">
     <!-- This div defines a row for input fields with flex layout -->
     <div class="metric-row flex items-center justify-center space-x-4">
       <!-- This div contains an input for metric name -->
@@ -87,7 +87,7 @@
         <Input
           type="text"
           id="metricName"
-          class="w-64 lg:w-96 focus:border-black"
+          class="w-36 md:w-64 lg:w-96 focus:border-black"
           bind:value={metricName}
           placeholder="Metric Name"
           style="text-align: center"
@@ -97,11 +97,11 @@
       </div>
 
       <!-- This div contains an input for metric score-->
-      <div class="w-3/6">
+      <div class="">
         <Input
           type="number"
           id="maxScore"
-          class="w-64 lg:w-96 focus:border-black"
+          class="w-36 md:w-64 lg:w-96 focus:border-black"
           bind:value={maxScore}
           placeholder="Max Score: 10"
           style="appearance: none; text-align: center"

@@ -3,32 +3,31 @@
   <title>Award Portal</title>
 </svelte:head>
 
-
 <div class="h1">
   <h1>Welcome to Award Portal</h1>
 </div>
 <div>
   <p>Available Pages:</p>
-  <a href="/login">Login</a>
-  <a href="/signup">Signup</a>
-  <a href="/awardcommittee/create">Create Award Committee</a>
-  <a href="/submission/create">Submission Form</a>
-  <a href="/ReviewerList" ><b> Reviewers List</b></a>
-
-  <p>Quick Links:</p>
-
+  <hr>
   <a href="/login">Login</a>
   <a href="/signup">Signup</a>
   <a href="/forgot">Forgot Password</a>
+  <a href="/awardcommittee/create">Create Award Committee</a>
+  <a href="/submission/create">Submission Form</a>
+  <a href="/submission">Submission List</a>
+  <a href="/submission/1">Submission Details</a>
+  <a href="/ReviewerList" >Reviewers List</a>
+  <a href="/reviewer/create">Add new Reviewer</a>
+  <a href="/award/newAward">New Award</a>
+  <p>
+    <hr>
+  
+  <p>Todo Links:</p>
+  <hr />
   <a href="/reset">Reset Password</a>
-  <br />
   <a href="/admin">Admin</a>
-  <a href="/admin/newCommittee">New Committee</a>
-  <br />
-  <a href="/awardcommittee/newAward">New Award</a>
   <a href="/awardcommittee">Award List</a>
   <a href="/awardcommittee/1">Award Details</a>
-  
   <br />
 </div>
 

@@ -16,11 +16,11 @@
   </NavBrand>
   <NavHamburger on:click={toggle} />
   <NavUl {hidden}>
-    <NavLi href="/" active={true}>Home</NavLi>
-    <NavLi href="/">Apply for Award</NavLi>
-    <NavLi href="/">Your Applications</NavLi>
     <NavLi href="/">Welcome</NavLi>
-    <NavLi href="/">Logout</NavLi>
+    <NavLi href="/" active={true}>Home</NavLi>
+    <!-- <NavLi href="/">Apply for Award</NavLi> -->
+    <!-- <NavLi href="/">Your Applications</NavLi> -->
+    <!-- <NavLi href="/">Logout</NavLi> -->
   </NavUl>
 </Navbar>
 <slot />

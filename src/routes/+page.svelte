@@ -19,6 +19,7 @@
   <a href="/ReviewerList" >Reviewers List</a>
   <a href="/reviewer/create">Add new Reviewer</a>
   <a href="/award/newAward">New Award</a>
+  <a href="/reviewer/[submissionId]/score">Assign Score</a>
   <p>
     <hr>
   
